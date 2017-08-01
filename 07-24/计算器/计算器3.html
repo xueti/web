@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>计算器</title>
+	<style>
+	.a{
+			width:300px;
+			height:400px;
+			background-color:rosybrown;
+		}
+		.a1{
+			width:300px;
+			height:100px;
+			background-color: #263238;
+		}
+		.a2{
+			width:300px;
+			height:300px;
+			/*background-color: aquamarine;*/
+			border: initial;
+		}
+		.a21{
+			width:300px;
+			height:60px;
+			background-color: #ffcdd2;
+			display: inline-block;
+			
+			
+			
+		}
+		.a21 div{
+			display:inline-block;
+			
+			
+		}
+		
+		
+		.a211{
+			width:60px;
+			height:60px;
+			background-color: #CFD8DC;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a211:hover{
+			box-shadow: 0px 0px 10px #6A1B9A ;
+		}
+		.a212{
+			width:60px;
+			height:60px;
+			background-color:#CFD8DC;
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+			
+		}
+		.a212:hover{
+			box-shadow: 0px 0px 10px #6A1B9A ;
+		}
+	    .a213{
+			width:60px;
+			height:60px;
+			background-color: #CFD8DC;
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+			
+		}
+		.a213:hover{
+			box-shadow: 0px 0px 10px #6A1B9A;
+		}
+		.a214{
+			width:60px;
+			height:60px;
+			background-color: #CFD8DC;
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+			
+		}
+		.a214:hover{
+			box-shadow: 0px 0px 10px #6A1B9A ;
+		}
+		.a215{
+			width:60px;
+			height:60px;
+			background-color: #CFD8DC;
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+			
+		}
+		.a215:hover{
+			box-shadow: 0px 0px 10px #6A1B9A ;
+		}
+		.a22{
+			width:300px;
+			height:60px;
+			/*background-color: #ffcdd2;*/
+		}
+		.a22 div{
+			display:inline-block;
+		}
+		.a221{
+			width:60px;
+			height:60px;
+			
+			text-align: center;
+			line-height: 60px;
+			
+		}
+		.a221:hover{
+			box-shadow: 0px 0px 10px #darkblue ;
+		}
+		.a222{
+			width:60px;
+			height:60px;
+			
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a222:hover{
+			box-shadow: 0px 0px 10px #darkblue ;
+		}
+	    .a223{
+			width:60px;
+			height:60px;
+			
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a223:hover{
+			box-shadow: 0px 0px 10px #FFA000 ;
+		}
+		.a224{
+			width:60px;
+			height:60px;
+			
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a224:hover{
+			box-shadow: 0px 0px 10px #FFA000 ;
+		}
+		.a225{
+			width:60px;
+			height:60px;
+			
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a225:hover{
+			box-shadow: 0px 0px 10px #FFA000 ;
+		}
+		.a23{
+			width:300px;
+			height:60px;
+			background-color: #ffcdd2;
+		}
+		.a23 div{
+			display:inline-block;
+		}
+		.a231{
+			width:60px;
+			height:60px;
+			
+			text-align: center;
+			line-height: 60px;
+			
+		}
+		.a231:hover{
+			box-shadow: 0px 0px 10px #FFA000 ;
+		}
+		.a232{
+			width:60px;
+			height:60px;
+		
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a232:hover{
+			box-shadow: 0px 0px 10px #FFA000 ;
+		}
+	    .a233{
+			width:60px;
+			height:60px;
+		
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a233:hover{
+			box-shadow: 0px 0px 10px #8BC34A ;
+		}
+		.a234{
+			width:60px;
+			height:60px;
+			
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a234:hover{
+			box-shadow: 0px 0px 10px #8BC34A ;
+		}
+		.a235{
+			width:60px;
+			height:60px;
+		
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a235:hover{
+			box-shadow: 0px 0px 10px #8BC34A ;
+		}
+		.a24{
+			width:300px;
+			height:60px;
+			background-color: #ffcdd2;
+		}
+		.a24 div{
+			display:inline-block;
+		}
+		.a241{
+			width:60px;
+			height:60px;
+			
+			text-align: center;
+			line-height: 60px;
+			
+		}
+		.a241:hover{
+			box-shadow: 0px 0px 10px #8BC34A ;
+		}
+		.a242{
+			width:60px;
+			height:60px;
+			
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a242:hover{
+			box-shadow: 0px 0px 10px #8BC34A;
+		}
+	    .a243{
+			width:60px;
+			height:60px;
+		
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a243:hover{
+			box-shadow: 0px 0px 10px #ff1744 ;
+		}
+		.a244{
+			width:60px;
+			height:60px;
+			
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a244:hover{
+			box-shadow: 0px 0px 10px #ff1744 ;
+		}
+		.a245{
+			width:60px;
+			height:60px;
+			
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a245:hover{
+			box-shadow: 0px 0px 10px #ff1744 ;
+		}
+		.a25{
+			width:300px;
+			height:60px;
+			background-color: #ffcdd2;
+		}
+		.a25 div{
+			display:inline-block;
+		}
+		.a251{
+			width:60px;
+			height:60px;
+			
+			text-align: center;
+			line-height: 60px;
+			
+		}
+		.a251:hover{
+			box-shadow: 0px 0px 10px #ff1744 ;
+		}
+		.a252{
+			width:60px;
+			height:60px;
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a252:hover{
+			box-shadow: 0px 0px 10px #ff1744 ;
+		}
+	    .a253{
+			width:60px;
+			height:60px;
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a253:hover{
+			box-shadow: 0px 0px 10px #ff1744 ;
+		}
+		.a254{
+			width:60px;
+			height:60px;
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a254:hover{
+			box-shadow: 0px 0px 10px #76FF03 ;
+		}
+		.a255{
+			width:60px;
+			height:60px;
+			margin-left: -5px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.a255:hover{
+			box-shadow: 0px 0px 10px #76FF03 ;
+		}
+	</style>
+</head>
+<body>
+	<div class="a">
+		<div class="a1"></div>
+		<div class="a2">
+			<div class="a21">
+				<div class="a211" >1</div>
+				<div class="a212">2</div>
+				<div class="a213">3</div>
+				<div class="a214">4</div>
+				<div class="a215">5</div>
+			</div>
+			<div class="a22">
+				<div class="a221" >1</div>
+				<div class="a222">2</div>
+				<div class="a223">3</div>
+				<div class="a224">4</div>
+				<div class="a225">5</div>
+			</div>
+			<div class="a23">
+				<div class="a231" >1</div>
+				<div class="a232">2</div>
+				<div class="a233">3</div>
+				<div class="a234">4</div>
+				<div class="a235">5</div>
+			</div>
+			<div class="a24">
+				<div class="a241" >1</div>
+				<div class="a242">2</div>
+				<div class="a243">3</div>
+				<div class="a244">4</div>
+				<div class="a245">5</div>
+			</div>
+			<div class="a25">
+				<div class="a251" >1</div>
+				<div class="a252">2</div>
+				<div class="a253">3</div>
+				<div class="a254">4</div>
+				<div class="a255">5</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

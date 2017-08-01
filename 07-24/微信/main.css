@@ -1,0 +1,149 @@
+#all {
+				margin: 0px auto;
+			}
+			
+			.top {
+				width: 600px;
+				height: 40px;
+				background-color: #263238;
+			}
+			
+			.top1 {
+				position: relative;
+				left: 20px;
+				width: 80px;
+				height: 38px;
+				/*border:1px solid red;*/
+				color: #F5F5DC;
+				font-size: 18px;
+				text-align: center;
+				line-height: 38px;
+			}
+			
+			.top2 {
+				position: relative;
+				width: 100px;
+				height: 38px;
+				/*border:1px solid red;*/
+				right: 10px;
+				top: -40px;
+				float: right;
+				line-height: 40px;
+			}
+			
+			.middle {
+				width: 600px;
+				height: 500px;
+				/*border: 1px solid red;*/
+				overflow-y: scroll;
+			}
+			
+			.m1 {
+				height: 70px;
+				width: 100%;
+				border-bottom: 1px solid #BDBDBD;
+				
+			}
+			.m1:hover{
+				background-color: darkgray;
+			}
+			.m11 {
+				margin: 3px;
+				/*border: 1px solid royalblue;*/
+				width: 60px;
+				height: 50px;
+				position: relative;
+				margin: 5px;
+				text-align: center;
+				top: 4px;
+			}
+			
+			.m12 {
+				/*border: 1px solid aquamarine;*/
+				width: 530px;
+				float: right;
+				height: 60px;
+				position: relative;
+				right: 1px;
+				top: -60px;
+				display: flex;
+				flex-flow: column wrap;
+				justify-content: space-between;
+				line-height: 24px;
+				font-size: 17px;
+				text-indent: 20px;
+				padding-top: 6px;
+			}
+			
+			.m121 {
+				font-size: 19px;
+				color: #000000;
+			}
+			
+			.m122 {
+				color: #37474F;
+			}
+			
+			.m123 {
+				color: #BDBDBD;
+				position: relative;
+				right:-50px;
+				float: right;
+				/*border:1px solid red;*/
+				width:100px;
+			}
+			::-webkit-scrollbar {
+				display: none;
+			}
+			.last{
+				border-top:1px solid #BDBDBD;
+				width:600px;
+				margin: 10px;
+				display:flex;
+				
+			}
+			.last div {
+				height: 50px; width: 150px;
+				/*background-color: #C30052;*/
+				
+				margin: 50px;
+				font-size: 15px;
+				
+			}
+			
+			.last1{
+				/*border:1px solid red;*/
+				position: relative;
+				top:-50px;
+				text-align: center;
+				padding: 8px;
+				left:-40px;
+				color:#76FF03;
+			}
+			.last2{
+				/*border:1px solid red;*/
+				position: relative;
+				top:-50px;
+				text-align: center;
+				padding: 8px;
+				left:-40px;
+				color:#76FF03;
+			}
+			.last3{
+				/*border:1px solid red;*/
+				position: relative;
+				top:-50px;
+				text-align: center;
+				padding: 8px;
+				left:-50px;
+				color:#76FF03;
+			}
+			.last4{
+				/*border:1px solid red;*/
+				position: relative;
+				top:-50px;
+				text-align: center;
+				padding: 8px;
+				left:-50px;
+				color:#76FF03;
+			}
